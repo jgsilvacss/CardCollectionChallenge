@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #000000ee;
+}
+#collection-container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 1rem; 
+  }
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  box-shadow: 0 0 5px rgba(178, 15, 184, 0.699);
+  width: 300px; 
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  box-shadow: rgb(0, 4, 255) 0 0 5px;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+.genre {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: whitesmoke;
+}
+
+h2 {
+    color: whitesmoke;
+    margin-bottom: 1rem;
+}
+/* Add styles for other elements (h2, description, etc.) */
+p {
+    color: whitesmoke;
+}
